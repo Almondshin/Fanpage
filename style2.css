@@ -299,7 +299,6 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 .f-slide-1{
     background-image: url(./images/006WbKaXly1gz8lf3baz9j31xy2lab2a.jpg);
@@ -312,14 +311,37 @@ nav{
     align-items: center;
 }    
 .f-slide-text{
+    color: #dfdfdf;
     display: flex;
     flex-direction: column;
     margin-right: auto;
 }
 .f-slide-text strong{
-    color: #dfdfdf;
+    color: #c0c0c0;
     font-size: 3rem;
     line-height: 55px;
     margin-top: 10px;
     letter-spacing: 1px;
+}
+.f-slider-text span{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 500;
+    color: #666666;
+    font-size: 1.2rem;
+}
+.f-slider-btn{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0b9d8a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.f-slide-text strong font{
+    color: #0b9d8a;
 }
