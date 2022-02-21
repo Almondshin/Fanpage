@@ -302,9 +302,13 @@ nav{
     background-position: center;
 }
 .f-slide-1{
-    background-image: url(./images/006WbKaXly1gz8lf3baz9j31xy2lab2a.jpg);
-    
-
+    background-image: url(./images/slide01.jpg);
+}
+.f-slide-2{
+    background-image: url(./images/slide02.jpg);
+}
+.f-slide-3{
+    background-image: url(./images/slide03.jpg);
 }
 .slider-text-countainer{
     width: 80%;
