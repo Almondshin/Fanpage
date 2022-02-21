@@ -436,6 +436,7 @@ nav{
     height: 210px;
     margin: 20px;
     cursor: pointer;
+    position: relative;
 }
 .product-img img{
     width: 100%;
@@ -461,4 +462,72 @@ nav{
 }
 .product-box:hover{
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+.add-cart{
+    position: absolute;
+    right: -50px;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #0b9d8a;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+    display: none;
+    animation: fade 0.3s;
+}
+.add-cart:hover{
+    background-color: salmon;
+    transition: all ease 0.2s;
+
+}
+.product-box:hover,
+.add-cart{
+    display: flex;
+}
+.new-arrival{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sale{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.sale-box{
+    width: 280px;
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+}
+.sale-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center right;
+}
+.sale-text{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+    display: flex;
+    flex-direction: column;
+
+}
+.sale-box a{
+    color: rgb(224, 224, 224);
+}
+.sale-text strong{
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 80%;
+    line-height: 23px;
 }
