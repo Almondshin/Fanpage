@@ -293,22 +293,22 @@ nav{
 .full-slider-box{
     width: 70%;
     height: 65vh;
-    margin-left: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 .f-slide-1{
-    background-image: url(./images/slide01.jpg);
+    background-image: url(./images/slide01.png);
 }
 .f-slide-2{
-    background-image: url(./images/slide02.jpg);
+    background-image: url(./images/slide02.png);
 }
 .f-slide-3{
-    background-image: url(./images/slide03.jpg);
+    background-image: url(./images/slide03.png);
 }
 .slider-text-countainer{
     width: 80%;
@@ -356,7 +356,8 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.feature-heading h2{
+.feature-heading h2,
+.arrival-heading strong{
     font-size: 1.5rem;
     color: black;
     letter-spacing: 1px;
@@ -378,4 +379,86 @@ nav{
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+.item span{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 5px;
+    color: #666666;
+}
+.item-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#autoWidth{
+    display: flex;
+    justify-content: center m !important;
+    margin: 10px auto 40px auto;
+}
+.arrival-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.arrival-heading strong{
+    color: white;
+    background-color: #202020;
+    font-weight: 500;
+}
+.arrival-heading p{
+    color: gray;
+    margin: 10px;
+    font-size: 0.9rem;
+}
+.product-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.product-box{
+    display: flex;
+    flex-grow: 0.5;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightyellow;
+    border-radius: 10px;
+    margin: 20px;
+}
+.product-img{
+    width: 200px;
+    height: 210px;
+    margin: 20px;
+    cursor: pointer;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    border-top: 1px solid lightyellow;
+}
+.p-name{
+    color: darkgray;
+}
+.p-price{
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.product-box:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
 }
