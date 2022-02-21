@@ -196,20 +196,102 @@
 
     </ul>
 
-    <!-- Featured-Categories------------------------ -->  
+    <!-- Featured-Categories << 추천 카테고리 >>------------------------ -->
     <div class="feature-heading">
         <h2>Featured Categories</h2>
-
     </div>
-    <!-- feature-box -->
-    <div class="feature-box">
-        <a href="#">
-            <img src="images/card01.jpg" >
-        </a>
-    </div>
-    
 
+    <ul id="autoWidth" class="cs-hidden">
+        <!-- 1------------------ -->
+        <li class="item-a">
+            <!-- feature-box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="images/card01.png">
+                </a>
+            </div>
+            <!-- text---------------- -->
+            <span>自拍 셀카</span>
+        </li>
+        <!-- 2------------------ -->
+        <li class="item-a">
+            <!-- feature-box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="images/card02.png">
+                </a>
+            </div>
+            <!-- text---------------- -->
+            <span>眼镜 안경</span>
+        </li>
+        <!-- 1------------------ -->
+        <li class="item-a">
+            <!-- feature-box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="images/card03.png">
+                </a>
+            </div>
+            <!-- text---------------- -->
+            <span>原创 Original</span>
+        </li>
+        <!-- 1------------------ -->
+        <li class="item-a">
+            <!-- feature-box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="images/card04.png">
+                </a>
+            </div>
+            <!-- text---------------- -->
+            <span>头像 프로필</span>
+        </li>
+        <!-- 1------------------ -->
+        <li class="item-a">
+            <!-- feature-box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="images/card05.png">
+                </a>
+            </div>
+            <!-- text---------------- -->
+            <span>精选 추천</span>
+        </li>
+        <!-- 1------------------ -->
+        <li class="item-a">
+            <!-- feature-box -->
+            <div class="feature-box">
+                <a href="#">
+                    <img src="images/card06.png">
+                </a>
+            </div>
+            <!-- text---------------- -->
+            <span>相册 사진</span>
+        </li>
+    </ul>
 
+    <!-- new-arrival--------------- -->
+    <section class="new-arrival">
+        <!-- heading -->
+        <div class="arrival-heading">
+            <strong>New Arrival</strong>
+            <p>We Provide You New Design Fashion Clothes</p>
+        </div>
+        <!-- product-container -->
+        <div class="product-container">
+            <!-- product-box -->
+            <div class="product-box">
+                <img src="./images/item.jpg">
+            </div>
+            <!-- details -->
+            <div class="product-details">
+                <a href="#" class="p-name">Drawstring T-Shirt</a>
+                <span class="p-price">$22.00</span>
+            </div>
+        </div>
+
+ 
+    </section>
 
 
 
@@ -247,6 +329,17 @@
                 item: 1,
                 slideMargin: 0,
                 loop: true
+            });
+        });
+
+        /* ----Feature-slider------- */
+        $(document).ready(function () {
+            $('#autoWidth').lightSlider({
+                autoWidth: true,
+                loop: true,
+                onSliderLoad: function () {
+                    $('#autoWidth').removeClass('cS-hidden');
+                }
             });
         });
 
