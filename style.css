@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0px;
     padding: 0px;
@@ -50,7 +51,7 @@ nav{
     padding: 0px 45px;
 }
 .logo img{
-    height: 30px;
+    height: 70px;
 }
 .menu{
     display: flex;
@@ -68,7 +69,7 @@ nav{
 .right-menu a{
     margin: 0px 10px;
     font-size: 1.2rem;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(99, 79, 79, 0.7);
 }
 .menu a:hover
 .right-menu a:hover,
@@ -105,7 +106,7 @@ nav{
     left: 10%;
     top: 100%;
 }
-.fa-shopping-cart{
+.fa-message{
     position: relative;
 }
 .num-cart-product{
@@ -116,7 +117,7 @@ nav{
     height: 25px;
     font-size: 0.8rem;
     border-radius: 100%;
-    background-color: rgb(14, 70, 107);
+    background-color: rgb(81, 152, 199);
     color: white;
     display: flex;
     justify-content: center;
@@ -317,13 +318,13 @@ nav{
     align-items: center;
 }    
 .f-slide-text{
-    color: #dfdfdf;
+    color: #c4c4c4;
     display: flex;
     flex-direction: column;
     margin-right: auto;
 }
 .f-slide-text strong{
-    color: #c0c0c0;
+    color: #e2e2e2be;
     font-size: 3rem;
     line-height: 55px;
     margin-top: 10px;
@@ -333,7 +334,7 @@ nav{
     text-transform: uppercase;
     letter-spacing: 6px;
     font-weight: 500;
-    color: #666666;
+    color: #d3a1a1;
     font-size: 1.2rem;
 }
 .f-slider-btn{
@@ -343,13 +344,14 @@ nav{
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #0b9d8a;
+    /* background-color: #2c2d64d8; */
+    background-color: #b95c55d8;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 10px;
 }
 .f-slide-text strong font{
-    color: #0b9d8a;
+    color: #e4b763;
 }
 .feature-heading{
     display: flex;
@@ -465,7 +467,7 @@ nav{
 }
 .add-cart{
     position: absolute;
-    right: -50px;
+    right: -40px;
     top: 10px;
     width: 45px;
     height: 45px;
@@ -474,7 +476,7 @@ nav{
     justify-content: center;
     align-items: center;
     color: whitesmoke;
-    background-color: #0b9d8a;
+    background-color: #3c82b1;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
     display: none;
     animation: fade 0.3s;
