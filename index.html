@@ -156,7 +156,6 @@
                         <!-- <span>Limited offer</span> -->
                         <span>Popular image</span>
                         <strong>#KEYWORDS<br>with <font> promo code</font></strong>
-                        <!-- <strong>이미지 크기조정 중</strong> -->
                         <a href="#" class="f-slider-btn">Learn more</a>
                     </div>
                 </div>
@@ -172,7 +171,6 @@
                     <div class="f-slide-text">
                         <span>Limited image</span>
                         <strong>#KEYWORDS<br>with <font> promo code</font></strong>
-                        <!-- <strong>이미지 크기조정 중</strong> -->
                         <a href="#" class="f-slider-btn">Learn more</a>
                     </div>
                 </div>
@@ -188,7 +186,6 @@
                     <div class="f-slide-text">
                         <span>Promotion image</span>
                         <strong>#KEYWORDS<br>with <font> promo code</font></strong>
-                        <!-- <strong>이미지 크기조정 중</strong> -->
                         <a href="#" class="f-slider-btn">Learn more</a>
                     </div>
                 </div>
@@ -432,81 +429,117 @@
                     <span class="p-price">$22.00</span>
                 </div>
             </div>
-
-
-
         </div>
-
-
     </section>
 
-    <!-- sale -->
-    <section class="sale">
-        <!-- sale-box -->
-        <div class="sale-box">
-            <!-- img -->
-            <img src="./images/Item09.png">
-            <!-- text -->
-            <a href="#">
-                <div class="sale-text">
-                    <strong>Bag With Rose Pattern</strong>
-                    <span>Sale Off 25%</span>
+    <!-- banner----------------------------- -->
+
+    <!-- box-1 -->
+    <li class="item-a">
+        <!-- box------------------ -->
+        <div class="banner-box f-slide-3">
+            <!-- slider-text-countainer -->
+            <div class="banner-text-countainer">
+                <div class="banner-text">
+                    <!-- <span>Limited offer</span> -->
+                    <span>Popular image</span>
+                    <strong>#KEYWORDS<br>with <font> promo code</font></strong>
+                    <a href="#" class="banner-btn">Learn more</a>
                 </div>
-            </a>
+            </div>
         </div>
 
-    </section>
+
+        <!-- sale -->
+        <section class="sale">
+            <!-- sale-box-1 -->
+            <div class="sale-box">
+                <!-- img -->
+                <img src="./images/Item09.png">
+                <!-- text -->
+                <a href="#">
+                    <div class="sale-text">
+                        <strong>Galaxy Z Fold3</strong>
+                        <span>Sale Off 25%</span>
+                    </div>
+                </a>
+            </div>
+            <!-- sale-box-2 -->
+            <div class="sale-box">
+                <!-- img -->
+                <img src="./images/macbook-pro.png">
+                <!-- text -->
+                <a href="#">
+                    <div class="sale-text">
+                        <strong>Macbooc Pro 14</strong>
+                        <span>Sale Off 25%</span>
+                    </div>
+                </a>
+            </div> <!-- sale-box-3 -->
+            <div class="sale-box">
+                <!-- img -->
+                <img src="./images/airpot-pro.png">
+                <!-- text -->
+                <a href="#">
+                    <div class="sale-text">
+                        <strong>Airpot pro</strong>
+                        <span>Sale Off 25%</span>
+                    </div>
+                </a>
+            </div>
+
+        </section>
 
 
 
 
-    <!-- script -->
-    <script type="text/javascript">
-        /* For Search bar------------------------ */
-        $(document).on('click', '.search', function () {
-            $('.search-bar').addClass('search-bar-active')
-        });
-        $(document).on('click', '.search-cancel', function () {
-            $('.search-bar').removeClass('search-bar-active')
-        });
-
-        /* login-sign-up-form */
-        $(document).on('click', '.user,.already-account', function () {
-            $('.form').addClass('login-active').removeClass('sign-up-active')
-        });
-
-        $(document).on('click', '.sign-up-btn', function () {
-            $('.form').addClass('sign-up-active').removeClass('login-active')
-        });
-
-        $(document).on('click', '.form-cancel', function () {
-            $('.form').removeClass('login-active').removeClass('sign-up-active')
-        });
-
-        /* full-slider-script */
-        $(document).ready(function () {
-            $('#adaptive').lightSlider({
-                adaptiveHeight: true,
-                auto: true,
-                item: 1,
-                slideMargin: 0,
-                loop: true
+        <!-- script -->
+        <script type="text/javascript">
+            /* For Search bar------------------------ */
+            $(document).on('click', '.search', function () {
+                $('.search-bar').addClass('search-bar-active')
             });
-        });
-
-        /* ----Feature-slider------- */
-        $(document).ready(function () {
-            $('#autoWidth').lightSlider({
-                autoWidth: true,
-                loop: true,
-                onSliderLoad: function () {
-                    $('#autoWidth').removeClass('cS-hidden');
-                }
+            $(document).on('click', '.search-cancel', function () {
+                $('.search-bar').removeClass('search-bar-active')
             });
-        });
+
+            /* login-sign-up-form */
+            $(document).on('click', '.user,.already-account', function () {
+                $('.form').addClass('login-active').removeClass('sign-up-active')
+            });
+
+            $(document).on('click', '.sign-up-btn', function () {
+                $('.form').addClass('sign-up-active').removeClass('login-active')
+            });
+
+            $(document).on('click', '.form-cancel', function () {
+                $('.form').removeClass('login-active').removeClass('sign-up-active')
+            });
+
+            /* full-slider-script */
+            $(document).ready(function () {
+                $('#adaptive').lightSlider({
+                    adaptiveHeight: true,
+                    auto: true,
+                    item: 1,
+                    slideMargin: 0,
+                    loop: true
+                });
+            });
+
+            /* ----Feature-slider------- */
+            $(document).ready(function () {
+                $('#autoWidth').lightSlider({
+                    autoWidth: true,
+                    loop: true,
+                    onSliderLoad: function () {
+                        $('#autoWidth').removeClass('cS-hidden');
+                    }
+                });
+            });
 
 
-    </script>
+        </script>
 
 </body>
 
